@@ -1,9 +1,8 @@
 import os
 
-from ..src.wordcount import main
-
 
 def test_migracion():
+    from ..src.wordcount import main
 
     main()
 
